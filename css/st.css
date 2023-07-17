@@ -1,0 +1,81 @@
+#box{
+    background-color: blue;
+        color: white;
+        text-align: center;
+    }
+
+
+
+    /* h1,h2,h3{
+        color: blue;
+        text-align: center;
+        text-decoration: red underline;
+    }
+    /* or */
+/* .heading{
+    color: red  ;
+} */ 
+
+p{
+    text-align: center;
+    
+}
+
+/* latest css 3 */
+/* text-decoration:underline / overline(uper-underline) /line-through(cutline) /none */
+a{
+    text-decoration: none; 
+    color: aqua;
+}
+/* font weight >>> light to dark  */
+/* font weight from 100 to 900 */
+/* light/lighter/darker */
+
+h2{
+    font-weight: 100;
+
+
+}
+
+h1{
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-weight: 500;
+}
+
+
+h3{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;   
+}
+.one{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* fall back machanism */
+    font-size: 10px;
+    line-height: 8px;
+}
+.two{
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+}   
+
+.three{
+    text-transform: uppercase;
+    /* upper /lower/ capitalize(1st letter of all is capital)/none */
+}
+ 
+#outer{
+   font-size: 25px;
+   text-align: center;
+}
+#inner{
+    font-size: 10px;
+    text-align: center;
+}

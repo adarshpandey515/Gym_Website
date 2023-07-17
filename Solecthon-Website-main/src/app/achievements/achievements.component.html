@@ -1,0 +1,16 @@
+<div>
+  <h1>Achievements</h1>
+  
+  <mat-card>
+    <mat-card-content>
+      <div class="row">
+        <div *ngFor="let achievement of achievements" class="col-md-4">
+          <div class="mat-cardstyle">
+            <mat-card-header class="achievement__title">{{ achievement.name }}</mat-card-header>
+            <div class="achievement__description">{{ achievement.description }}</div>
+            <div class="achievement__description">{{ achievement.points }}</div>
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>

@@ -1,0 +1,37 @@
+body{
+    background-color: yellow;
+}
+
+/* in english and hindi or language starting from left not like urdu
+start is left and 
+end is :right */
+.hello{
+    height: 100px;
+    width: 100px;
+    border: 3px dotted red;
+    padding: 10px;
+    margin: 30px;
+    background-color: pink;
+    /* border-radius: 50%; */
+    /* border-radius: 10px; */
+
+
+
+
+    /* border-top-right-radius: 10px;
+    border-bottom-left-radius:10px; */
+    /* or */
+    border-radius:10px 0px 10px 0px;
+
+}
+
+.me{
+    text-align: center;
+   width: 400px;
+   padding: 100px;
+   height: 400px; 
+   background-color: green;
+   border-radius: 50%;
+ border: 5px double red;
+
+}

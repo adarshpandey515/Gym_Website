@@ -1,0 +1,44 @@
+/* css is a styling language
+Cascading Style sheet  */
+/* External sytlesheet */
+
+/* preference Order */
+/* inline
+style tag
+external stylsheet */
+
+
+/* selector */
+/* element selector */
+h1{
+    color:rgb(205, 204, 134);
+    /* property : value */
+}   
+
+p{
+    color:gold;
+}
+
+button{
+    color: rgb(21, 6, 1);
+    background-color: rgb(184, 230, 111);
+}
+body{
+    background-color:brown;
+}
+/* universal selector */
+*{
+
+color: pink;
+}
+/* for id use # and for class . */
+#you{
+    color: yellow;
+}
+/* all elements can have same id and property */
+#me{
+    color: rgb(226, 175, 87);
+}
+.Nalasopara{
+    color: blueviolet;
+}

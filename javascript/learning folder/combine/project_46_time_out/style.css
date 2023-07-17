@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+  .yellow{
+    background-color:yellow;
+    color:green;
+
+  }
+  .pink{
+    background-color:pink;
+    color:white;
+  }
+
+  .text_dark{
+    background-color: red;
+    color:black;
+  }

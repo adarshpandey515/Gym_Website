@@ -1,0 +1,71 @@
+.me{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+/* border-bottom: 5px solid blueviolet; */
+border-top: 10px solid magenta;
+background-color: white;
+}
+body{
+    background-color: white;
+}
+div{
+    background-color: greenyellow;
+    text-align: center;
+    border: 10px;
+    border-style: solid;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    
+   
+    margin-left:120px;
+    margin-top: 239px;
+     /* transition-property: all;
+     transition-duration: 2s;
+     transition-timing-function: ease-in-out;
+     transition-delay: 5ms; */
+     
+     /* transform: rotate(45deg); */
+     
+        /* transform: rotateX(34deg); */
+        
+        /* transition: all 1s ease-in;  */
+        /* transform: translateX(1200px); */
+    
+        animation:rotation 1s ease 0.5s infinite normal ;
+        /* animation: rotation;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse; */
+
+}
+
+/* div:hover{
+   
+    /* transform: rotateZ(360deg); */
+    /* transform: translateX(1200px); */
+    /* transform: skew(89deg);
+    background-color: red; */
+
+/* 
+} */
+/* div:active{
+    color: black;
+    background-color: pink;
+} */ 
+@keyframes rotation {
+    0%{background-color: white;
+    /* left:0px;} */}
+    100%{
+        background-color: white;
+        transform: rotate(360deg);
+        /* left: 1000px; */
+    }
+    50%{
+        background-color: white;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,49 @@
+/* div{
+    
+    margin: 100px;
+    padding: 60px;
+    display: inline-block;
+    
+} */
+#box1{
+    /* visibility: hidden; */
+    /* visibility takes places but not shown; */
+    /* while if diplay none is not take space also */
+    /* display: none; */
+
+
+    /* Study RGBA */ /* a for opacity */
+    background-color: RGBA(255,255,0,1);
+
+     
+
+}
+
+
+
+#box2{
+    background-color: RGBA(255,255,0,0.6);
+}
+
+#box3{
+    background-color: RGBA(255,255,0,0.4);
+}
+header{
+    background-color:rgba(253, 84, 28, 0.978);
+    
+    height: 60px;
+    text-align: center;
+    
+}
+div{
+    background-color: wheat;
+    text-align: center;
+    height: 1400px;
+    display: block;
+
+}
+footer{
+    text-align: center;
+    height: 50px;
+    background-color: rgba(255, 255, 0, 0.708);
+}
