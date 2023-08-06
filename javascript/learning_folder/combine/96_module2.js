@@ -9,3 +9,4 @@ import you from './96_module1.js';
 // teach.ahello("adarsh ");
 
 you();
+// set "type":module in package.json to run this file
