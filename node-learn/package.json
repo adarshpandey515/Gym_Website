@@ -1,0 +1,19 @@
+{
+  "name": "new-lear-programing-node",
+  "version": "1.0.0",
+  "description": "trying to learn the node js",
+  "main": "1-tut-simple-backend-webpage.js",
+  "scripts": {
+    "test": "console.log('adarsh')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "-"
+  ],
+  "author": "adarsh",
+  "license": "ISC",
+  "module": "child_process"
+}
