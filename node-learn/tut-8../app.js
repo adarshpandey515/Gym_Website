@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const fs = require('fs');
 const port = process.env.PORT || 10167;
 
-fs.writeFileSync('port.txt', parseInt(port) + 1);
+// fs.writeFileSync('port.txt', parseInt(port) + 1);
 app.use('/static',express.static('static')); // For serving static files    
 
 app.use(express.json()); // To get the data from the form we use this
