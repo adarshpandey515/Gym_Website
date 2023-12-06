@@ -1,8 +1,7 @@
 // 5. Create a server that returns the html page for different url's.
 const http = require('http');
 const fs = require('fs');
-const savedValue = fs.readFileSync('port.txt', 'utf8');
-const port = savedValue;
+const port = fs.readFileSync('port.txt', 'utf8');
 fs.writeFileSync('port.txt', parseInt(port) + 1);
 
 const hostname='127.0.0.1';
@@ -29,5 +28,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+    console.log(`Server running see carefully at http://${hostname}:${port}/`);
 })
