@@ -3,7 +3,7 @@ const path=require('path');
 const app=express();
 const bodyParser = require('body-parser');
 const fs = require('fs');
-const port = 10180;
+const port = process.env.PORT || 10167;
 
 fs.writeFileSync('port.txt', parseInt(port) + 1);
 app.use('/static',express.static('static')); // For serving static files    
