@@ -1,0 +1,36 @@
+body{
+    background-image: url('../static/iii.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Optional */
+
+}
+ul{
+    list-style-type: none;
+}
+
+.preremove{
+    /* padding-left: 10px; */
+    padding-right: 10px;
+    text-decoration: None;
+    text-underline-offset: None;
+    color: black;
+    font-weight: bold;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color: crimson;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.bgtake{
+    background-image: url('../iii.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%
+}
+
+

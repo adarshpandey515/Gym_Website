@@ -1,0 +1,22 @@
+{
+  "name": "tut-8",
+  "version": "1.0.0",
+  "description": "just tut8",
+  "main": "app.js",
+  "scripts": {
+    "test": "on"
+  },
+  "repository": {
+    "type": "git",
+    "url": "on"
+  },
+  "keywords": [
+    "on"
+  ],
+  "author": "adarsh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
